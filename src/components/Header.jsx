@@ -30,11 +30,13 @@ const Header = ( {parent, windowWidth} ) => {
 
     }
 
-
     if( parent ==="mobile" ){
         return mobile()
     }
     if(parent ==="tablet"){
+        return tablet()
+    }
+    if(parent ==="desktop"){
         return tablet()
     }
 }

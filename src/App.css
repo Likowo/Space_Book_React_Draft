@@ -1,3 +1,21 @@
+.main{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainLink{
+  color: purple;
+  text-decoration: none;
+  font-size: 80px;
+  font-weight: bold;
+  /* margin: auto; */
+}
+.hide {
+  display: none;
+}
+
 .App {
   text-align: center;
 }
@@ -18,4 +36,25 @@
 
 .desktop{
   max-width: 1200px;
+}
+
+.proPic{
+  border: solid 1px black;
+  border-radius: 50%;
+  height: 60px;
+  width: 22px;
+}
+
+.friendsImg{
+  border: solid 1px red;
+  border-radius: 50%;
+  height: 60px;
+  width: 22px;
+}
+
+.feedsImg{
+  border: solid 1px red;
+  border-radius: 50%;
+  height: 60px;
+  width: 22px;
 }
