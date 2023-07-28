@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.mobile{
+  max-height: 844px;
+  max-width: 390px;
+}
+
+.mobile h1{
+  color: red;
+}
+
+
+.tablet{
+  max-width: 1200px;
+}
+
+.desktop{
+  max-width: 1200px;
+}
