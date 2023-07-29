@@ -1,21 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import SideNavBar from '../components/SideNavBar'
+// import { AppContext } from '../context/app_context'
 // import { useState } from 'react'
-//import {AppContext} from "../context/app_context"
+// import { ReactDOM } from 'react'
 //import Stories from "../components/Stories"
 
-
-
-// const [ navData, setNavaData] = useState('')
-
-
-
-
-const Desktop = (props) => {
+const Desktop = () => {
+  // let {quotes} = useContext(AppContext)
+  // console.log(quotes)
   return (
     <div className="desktop">
       <h1>DESKTOP</h1>
-      <SideNavBar/>
+      <SideNavBar />
+      {/* <app_context /> */}
     </div>
   )
 }

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 function App() {
   let { windowWidth } = useContext(AppContext)
-  console.log(window.innerWidth)
+  // console.log(window.innerWidth)
   const hide = (toeNail) => {
     toeNail.classList.add('hide')
   }
